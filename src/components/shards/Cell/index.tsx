@@ -1,4 +1,4 @@
-import { memo, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { selectResetPrevNum } from "../../../redux/ResetPrevNum/action";
 import styles from "./styles.module.scss";
@@ -18,10 +18,6 @@ function usePrevious(value: any, reset: boolean) {
   return reset ? undefined : ref.current;
 }
 
-function areEqual(prev: any, next: any) {
-  return prev.number === next.number && prev.style.color === next.style.color;
-}
-
 type CellProps = {
   number: string;
   style: {
@@ -31,7 +27,7 @@ type CellProps = {
   };
 };
 
-function Cell({ number, style }: CellProps) {
+export default function Cell({ number, style }: CellProps) {
   const reset = useSelector(selectResetPrevNum);
   const prevNum = usePrevious(number, reset);
 
@@ -49,5 +45,3 @@ function Cell({ number, style }: CellProps) {
     </div>
   );
 }
-
-export default memo(Cell, areEqual);
