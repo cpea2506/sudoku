@@ -7,7 +7,7 @@
 - Two algorithms AC-3 and Backtracking
 - Up to three modes for you to choose. Especially, Custom mode where you can create your own dream Sudoku board
 - Let you know where your board can be solved.
-- And more
+- And more...
 
 ### How to use?
 
@@ -17,6 +17,6 @@
 
 **Note:** If you choose custom mode, remember to input string follows this pattern:
 
-`It must be string with 81 length long. Using (dot for empty value) and number`
+`It must be string with 81 length long. Using dot (for empty value) and number`
 
-Ex: ".2...194881.6.......4.276..17..9...33.........48.53.....61....2....74..6.5.9....7"
+Ex: `.2...194881.6.......4.276..17..9...33.........48.53.....61....2....74..6.5.9....7`
