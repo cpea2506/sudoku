@@ -9,7 +9,8 @@
 - Let you know where your board can be solved.
 - And more...
 
-### How to use?
+### How to use? 
+[To Sudoku Solver](https://cpea2506.github.io/sudoku/)
 
 - First, click on any mode to start using.
 - Then click on the algorithm you want to use for solving board.
@@ -17,6 +18,11 @@
 
 **Note:** If you choose custom mode, remember to input string follows this pattern:
 
-`It must be string with 81 length long. Using dot (for empty value) and number`
+```
+It must be string with 81 length long. Using dot (for empty value) and number. 
+Count from the top-left of the board to the right and keep going on.
+```
 
-Ex: `".2...194881.6.......4.276..17..9...33.........48.53.....61....2....74..6.5.9....7"`
+For example:
+
+`".9.............46.2.......5.7.8.4.1..3..2....5...6.8...1.73..2.9.8.5.......2....."` (string stand for the board in the image above)
