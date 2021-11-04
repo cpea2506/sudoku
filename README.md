@@ -5,7 +5,7 @@
 ### Feature
 
 - Two algorithms AC-3 and Backtracking
-- Up to three modes for you to choose. Especially, Custom mode where you can create your own dream Sudoku board
+- Up to three modes for you to choose. Especially, `custom mode` where you can create your own dream Sudoku board
 - Let you know where your board can be solved.
 - And more...
 
@@ -14,9 +14,11 @@
 
 - First, click on any mode to start using.
 - Then click on the algorithm you want to use for solving board.
-- Well, Done!
+- Well, done!
 
-**Note:** If you choose custom mode, remember to input string follows this pattern:
+### Note:
+
+If you choose `custom mode`, remember to input your string follows this pattern:
 
 ```
 It must be string with 81 length long. Using dot (for empty value) and number. 
@@ -25,4 +27,6 @@ Count from the top-left of the board to the right and keep going on.
 
 For example:
 
-`".9.............46.2.......5.7.8.4.1..3..2....5...6.8...1.73..2.9.8.5.......2....."` (string stand for the board in the image above)
+String stands for the board in the image above
+
+`".9.............46.2.......5.7.8.4.1..3..2....5...6.8...1.73..2.9.8.5.......2....."` 
