@@ -1,0 +1,17 @@
+@import "../../styles/mixins";
+
+$img-url: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8101509.jpg&f=1&nofb=1");
+
+.main {
+  @include flex_center;
+
+  flex: 1;
+  height: 100vh;
+  padding: 50px;
+
+  /* background */
+  background-image: $img-url;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

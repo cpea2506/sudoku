@@ -1,0 +1,25 @@
+$shadow-x: -5px;
+$shadow-y: 4px;
+
+.button {
+  width: 150px;
+  padding: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 3px;
+  box-shadow: $shadow-x $shadow-y 0 #eee;
+  background-color: #00ff7f;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #faf;
+    box-shadow: $shadow-x $shadow-y 0 #000;
+  }
+
+  &:active {
+    background-color: #faf;
+    box-shadow: calc(#{$shadow-x} / 2) calc(#{$shadow-y} / 2) 0 #000;
+    transform: translate(calc(#{$shadow-x} / 2), calc(#{$shadow-y} / 2));
+  }
+}

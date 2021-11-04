@@ -1,0 +1,12 @@
+$border-style: 1px solid;
+$square-size: 650px;
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: $border-style;
+  border-left: $border-style;
+  width: $square-size;
+  height: $square-size;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}

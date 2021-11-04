@@ -1,0 +1,13 @@
+@import "../../../styles/mixins";
+
+.algBtn {
+  @include flex-center;
+
+  flex-direction: column;
+  padding: 20px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 700;
+}
