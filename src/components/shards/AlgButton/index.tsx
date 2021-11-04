@@ -25,7 +25,6 @@ export default function AlgButton() {
       return;
     }
 
-    console.log("im am alg");
     dispatch(setBoard(data));
   };
   return (
