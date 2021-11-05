@@ -13,7 +13,7 @@
 [To Sudoku Solver](https://cpea2506.github.io/sudoku/)
 
 - First, click on any mode to start using.
-- Then click on the algorithm you want to use for solving board.
+- Then click on the algorithm you want to use for solving the board.
 - Well, done!
 
 ### Note:
@@ -21,7 +21,7 @@
 If you choose `custom mode`, remember to input your string follows this pattern:
 
 ```
-It must be string with 81 length long. Using dot (for empty value) and number. 
+It must be a string 81 length long. Using dot (for empty value) and number. 
 Count from the top-left of the board to the right and keep going on.
 ```
 
