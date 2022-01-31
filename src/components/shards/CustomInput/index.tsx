@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setBoard } from "../../../redux/Board/action";
 import { setResetPrevNum } from "../../../redux/ResetPrevNum/action";
@@ -16,8 +16,8 @@ export default function CustomBoard() {
 
   const customBoard: boolean = useSelector(selectCustomBoard);
 
-  const handleChange = (e: any) => {
-    const value = e.target.value;
+  const handleChange = (e: FormEvent<HTMLInputElement>) => {
+    const value = e.currentTarget.value;
     console.log(value);
     if (value !== null) {
       setInitBoard(value);
